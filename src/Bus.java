@@ -1,8 +1,5 @@
 public class Bus extends Vehicle implements Servicable{
     private int passengerCapacity;
-    Bus(){
-        super();
-    }
     Bus(String model, int year, double basePrice, int passengerCapacity) {
         super(model, year, basePrice);
         this.passengerCapacity = passengerCapacity;
